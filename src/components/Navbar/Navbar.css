@@ -28,11 +28,18 @@
 }
 
 .nav-menu li {
+  font-size: 1.4rem;
   padding: 0 1rem;
 }
 
+.nav-menu li:hover {
+  cursor: pointer;
+  color: #2c2c2c;
+  border-bottom: 1px solid var(--primary);
+}
+
 .nav-menu a {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #333;
 }
@@ -69,9 +76,15 @@
     padding: 1rem;
     width: 100%;
     border-bottom: 1px solid rgb(189, 185, 185);
+    font-weight: 600;
+  }
+
+  .nav-menu li:hover {
+    cursor: pointer;
+    color: #2c2c2c;
   }
 
   .nav-menu a {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 }

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
 
@@ -15,16 +14,16 @@ const Navbar = () => {
         <h1>De<span className='primary'>Fi</span></h1>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
-          <Link to="/">Home</Link>
+          Home
           </li>
           <li>
-          <Link to="/feature">Feature</Link>
+          Feature
           </li>
           <li>
-          <Link to="/sign-up">Earn</Link>
+          Earn
           </li>
           <li>
-          <Link to="/footer">Contact</Link>
+          Contact
           </li>
         </ul>
         <div className='btn-group'>
