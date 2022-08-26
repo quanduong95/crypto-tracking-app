@@ -3,9 +3,8 @@
   width: 100%;
   padding: 8rem 0;
   background-color: var(--background);
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+  clip-path: polygon(0 8%, 100% 0, 100% 93%, 0% 100%);
 }
-
 .featured .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -21,11 +20,16 @@
   padding-bottom: 2rem;
 }
 
+.featured .left h2 {
+  margin: 1.5rem 0;
+}
+
 .featured .left p {
   margin: 1.5rem 0;
 }
 
 .featured .left .btn {
+  margin: 1.5rem 0;
   align-self: flex-start;
 }
 
