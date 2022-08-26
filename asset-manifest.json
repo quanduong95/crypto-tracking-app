@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crypto-tracking-app/static/css/main.906076a4.css",
+    "main.js": "/crypto-tracking-app/static/js/main.795ab4a3.js",
+    "static/media/trade.png": "/crypto-tracking-app/static/media/trade.a2c09083fbde76e9cac2.png",
+    "static/media/hero-img.png": "/crypto-tracking-app/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "index.html": "/crypto-tracking-app/index.html",
+    "main.906076a4.css.map": "/crypto-tracking-app/static/css/main.906076a4.css.map",
+    "main.795ab4a3.js.map": "/crypto-tracking-app/static/js/main.795ab4a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.906076a4.css",
+    "static/js/main.795ab4a3.js"
+  ]
+}
